@@ -15,7 +15,10 @@ __Note:__ Typedoc is required as peer dependency.
 
 To install Typedoc, run the following command inside your project directory:
 ```bash
-npm install typedoc --save-dev
+npm install  git+ssh://git@github.com:itcat99/Typedoc-Webpack-Plugin.git --save-dev
+
+# or
+yarn add -D git+ssh://git@github.com:itcat99/Typedoc-Webpack-Plugin.git
 ```
 
 

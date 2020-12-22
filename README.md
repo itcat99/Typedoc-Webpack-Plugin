@@ -8,17 +8,20 @@ This is a plugin for the Webpack build system that will run Typedoc in order to 
 
 Run the following command inside your project directory to install:
 ```bash
-npm install typedoc-webpack-plugin --save-dev
+npm install  git+ssh://git@github.com:itcat99/Typedoc-Webpack-Plugin.git --save-dev
+
+#or 
+yarn add -D git+ssh://git@github.com:itcat99/Typedoc-Webpack-Plugin.git
 ```
 
 __Note:__ Typedoc is required as peer dependency. 
 
 To install Typedoc, run the following command inside your project directory:
 ```bash
-npm install  git+ssh://git@github.com:itcat99/Typedoc-Webpack-Plugin.git --save-dev
+npm install  typedoc --save-dev
 
 # or
-yarn add -D git+ssh://git@github.com:itcat99/Typedoc-Webpack-Plugin.git
+yarn add -D typedoc
 ```
 
 
